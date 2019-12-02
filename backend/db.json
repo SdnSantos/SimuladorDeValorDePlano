@@ -1,0 +1,72 @@
+{
+  "plano": [{
+      "id": 1,
+      "nome": "FaleMais 30",
+      "tempo": 30
+    },
+    {
+      "id": 2,
+      "nome": "FaleMais 60",
+      "tempo": 60
+    },
+    {
+      "id": 3,
+      "nome": "FaleMais 120",
+      "tempo": 120
+    }
+  ],
+  "codCidade": [{
+      "id": 1,
+      "codigo": "011"
+    },
+    {
+      "id": 2,
+      "codigo": "016"
+    },
+    {
+      "id": 3,
+      "codigo": "017"
+    },
+    {
+      "id": 4,
+      "codigo": "018"
+    }
+  ],
+  "tarifa": [{
+      "id": 1,
+      "idOrigem": 1,
+      "idDestino": 2,
+      "valor": 1.90
+    },
+    {
+      "id": 2,
+      "idOrigem": 1,
+      "idDestino": 3,
+      "valor": 1.70
+    },
+    {
+      "id": 3,
+      "idOrigem": 1,
+      "idDestino": 4,
+      "valor": 0.90
+    },
+    {
+      "id": 4,
+      "idOrigem": 2,
+      "idDestino": 1,
+      "valor": 2.90
+    },
+    {
+      "id": 5,
+      "idOrigem": 3,
+      "idDestino": 1,
+      "valor": 2.70
+    },
+    {
+      "id": 6,
+      "idOrigem": 4,
+      "idDestino": 1,
+      "valor": 1.90
+    }
+  ]
+}
